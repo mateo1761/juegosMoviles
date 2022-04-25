@@ -2,7 +2,7 @@ import React, {useState, Fragment} from 'react';
 
 const Contador = () => {
 
-    const [numero, setNumero] = useState(1);
+    const [numero, setNumero] = useState(0);
 
     const aumentar = () => {
         console.log('me diste un click')
