@@ -2,6 +2,7 @@ import React from 'react';
 import Contador from './componentes/Contador';
 import Control from './componentes/Control'
 import Efecto from './componentes/ContaEffect'
+import Nosotros from './componentes/Nosotros';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Contador/>
       <Control/>
       <Efecto/>
+      <Nosotros/>
     </div>
   );
 }
