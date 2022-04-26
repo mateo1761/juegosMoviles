@@ -3,6 +3,7 @@ import Contador from './componentes/Contador';
 import Control from './componentes/Control'
 import Efecto from './componentes/ContaEffect'
 import Nosotros from './componentes/Nosotros';
+import Bombillo from './componentes/Bombillo'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Control/>
       <Efecto/>
       <Nosotros/>
+      <Bombillo/>
     </div>
   );
 }
